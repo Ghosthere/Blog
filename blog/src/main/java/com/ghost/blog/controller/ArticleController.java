@@ -15,7 +15,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/article")
 public class ArticleController {
 
-    @Autowired(required = false)
+    @Autowired
     private ArticleService articleService;
 
     @GetMapping("/test")
