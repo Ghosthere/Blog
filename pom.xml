@@ -12,9 +12,6 @@
         <module>framework</module>
         <module>admin</module>
         <module>blog</module>
-        <module>framework</module>
-        <module>admin</module>
-        <module>blog</module>
     </modules>
 
     <properties>
