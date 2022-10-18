@@ -1,10 +1,14 @@
-package com.ghost.framework.service;
+package com.ghost.service;
 
 import com.baomidou.mybatisplus.extension.service.IService;
-import com.ghost.framework.domain.Article;
+import com.ghost.domain.ResponseResult;
+import com.ghost.domain.entity.Article;
 
 /**
  * @author ghost
  */
 public interface ArticleService extends IService<Article> {
+
+
+    ResponseResult hotArticleList();
 }

@@ -1,4 +1,4 @@
-package com.ghost.framework.domain;
+package com.ghost.domain.entity;
 
 import javax.validation.constraints.Size;
 import javax.validation.constraints.NotNull;

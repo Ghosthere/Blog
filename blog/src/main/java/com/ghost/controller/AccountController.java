@@ -1,4 +1,4 @@
-package com.ghost.blog.controller;
+package com.ghost.controller;
 
 
 import org.springframework.web.bind.annotation.RestController;

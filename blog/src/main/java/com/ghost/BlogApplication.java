@@ -1,4 +1,4 @@
-package com.ghost.blog;
+package com.ghost;
 
 
 //import org.mybatis.spring.annotation.MapperScan;

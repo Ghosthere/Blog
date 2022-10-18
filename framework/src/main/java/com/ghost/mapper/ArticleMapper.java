@@ -1,7 +1,7 @@
-package com.ghost.framework.mapper;
+package com.ghost.mapper;
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
-import com.ghost.framework.domain.Article;
+import com.ghost.domain.entity.Article;
 import org.apache.ibatis.annotations.Mapper;
 import org.springframework.stereotype.Repository;
 
