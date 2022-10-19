@@ -2,6 +2,7 @@ package com.ghost.domain;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 import com.ghost.enums.AppHttpCodeEnum;
+import io.swagger.v3.oas.annotations.media.Schema;
 
 import java.io.Serializable;
 
@@ -10,9 +11,16 @@ import java.io.Serializable;
  * @author ghost
  */
 @JsonInclude(JsonInclude.Include.NON_NULL)
+@Schema(name = "ResponseResult", description = "返回结果")
 public class ResponseResult<T> implements Serializable {
+
+    @Schema(name = "code", description = "状态码")
     private Integer code;
+
+    @Schema(name = "message", description = "消息")
     private String msg;
+
+    @Schema(name = "data", description = "数据")
     private T data;
 
     public ResponseResult() {
